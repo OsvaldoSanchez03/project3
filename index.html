@@ -1,0 +1,31 @@
+<!-- CREATED BY CHRISTOPHER A. AND OSVALDO S. -->
+
+
+<!DOCTYPE html>  
+ <html lang="en">  
+ <head>  
+   <meta charset="UTF-8">  
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+   <title>Document</title>  
+   <link rel="stylesheet" href="style.css">  
+   <link rel="preconnect" href="https://fonts.gstatic.com">  
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">  
+ </head>  
+ <body>  
+   <div class="container">  
+     <p id="mainHeader"><strong>Guess MY Number</strong></p>  
+     <p id="subHeader"><strong>Guess a Number Between 0 and 100</strong></p>  
+       <input type="text" placeholder="Guess A Number" id="guess"><br>  
+       <button onclick="checkNumber()" id="my_btn">GUESS</button>  
+       <div class="miniContainer">
+            <p id="message1"><strong> Number of tries : 0 </strong></p>  
+            <p id="message2"><strong> Guess History: </strong></p>  
+            <p id="message3"></p>  
+       </div>  
+       <br>
+       <button onclick="reset()" id="resetButton">Reset</button>  
+   </div>  
+   <script src="main.js"></script>  
+ </body>  
+ </html>  
